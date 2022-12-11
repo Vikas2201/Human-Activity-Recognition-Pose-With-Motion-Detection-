@@ -53,7 +53,7 @@ Out of these categories we use 'Basketball', 'Biking', 'Bowling', 'PushUps’, '
 
        * `Feature Extraction:` The feature extraction step helps create a list containing the resized and normalized frames of the video whose path is passed  as an argument. This function reads the video file frame by frame, but it doesn't add every frame to the list because it only requires an evenly spaced frame sequence length. Feature extraction depends on the type of approach  used for activity detection. This should be done  to reduce the confusion experienced by the model when trained on a large feature set. It also helps  reduce model complexity, improve accuracy and lower error rates. The system extracts important features specific to a particular activity.
 
-        * `Feature Representation:` The extracted features have to be represented in frames (features), class indexes ( labels), and video file paths (video_files_paths) so that the classification algorithms can be easily applied to them.
+       * `Feature Representation:` The extracted features have to be represented in frames (features), class indexes ( labels), and video file paths (video_files_paths) so that the classification algorithms can be easily applied to them.
 
   * `Splitting the Dataset:` After processing the data, split the dataset. In general, we split the data into two sets: training and validation. You might also create a third holdout dataset called the test set. Otherwise, we often use the terms "verify" and "test" interchangeably. I have the function I need. A NumPy array containing all frames extracted  from the video and another NumPy array one_hot_encoded_labels containing all class labels in  hot encoded form. So we  split the dataset to create a training set and a test set. We  also shuffle the dataset before splitting to avoid  bias and get splits that represent the overall distribution of the data.
 
@@ -67,3 +67,69 @@ Out of these categories we use 'Basketball', 'Biking', 'Bowling', 'PushUps’, '
   
 # Results
 ------------------------------------------------
+
+The first approach to training a dataset is the ConvLSTM algorithm. A ConvLSTM cell is a variant of the LSTM network that includes convolutional operations within the network. It is an LSTM with convolution built into its architecture that allows you to identify spatial characteristics of data while considering temporal relationships. After training, we evaluate the model on the test set and evaluate an accuracy of about 0.8365 and a spatial loss of information from the dataset of 1.0015.
+
+![image](https://user-images.githubusercontent.com/76476273/206907786-fbab50fe-b291-448b-9838-ea4272ecf745.png)
+
+  `Total Loss V/S Total Validation Loss`
+  
+![image](https://user-images.githubusercontent.com/76476273/206907838-47c15a47-8b6c-4613-8807-1d907b213afe.png)
+
+  `Total Accuracy V/S Total Validation Accuracy`
+  
+![image](https://user-images.githubusercontent.com/76476273/206907878-c3924feb-1455-4c49-a64f-dd10835d374a.png)
+
+A second approach for training datasets is the LRCN algorithm. We implement another approach known as Long-Term Recurrent Convolutional Network (LRCN) that combines CNN and LSTM layers into one model. A convolutional layer is used for spatial feature extraction from frames, and the extracted spatial features are fed to an LSTM layer for temporal sequence modeling at each time step. In this way, the network directly learns spatio-temporal features in end-to-end training and achieves a robust model. After training, we evaluate the model on the test set to assess an accuracy of approximately 0.85785 and a spatial loss of information from the data set of 0.7806.
+
+![image](https://user-images.githubusercontent.com/76476273/206907969-25730f23-5892-487d-b2cc-88f49383cc6b.png)
+
+  `Total Loss V/S Total Validation Loss`
+
+![image](https://user-images.githubusercontent.com/76476273/206908011-490f1421-b6ea-419d-8974-9accea600403.png)
+
+  `Total Accuracy V/S Total Validation Accuracy`
+  
+![image](https://user-images.githubusercontent.com/76476273/206908037-0dbf8e82-b6a2-4c47-acf8-80d94da1f894.png)
+
+# Conclusion
+-----------------------------------------------------------------------------
+
+Computer vision is a trending topic these days, so systems like human activity recognition systems solve a wide range of applications, such as monitoring, monitoring, and assisting the elderly and the blind. very useful and effective for It can be used not only by end users, but also by various organizations to reduce the workload of their employees. This model gives good results for video streams and works well for image data. Activity recognition systems are very important today because of the convenience and problems they provide and solve. Surveillance and surveillance, the need for activity detection such as video segmentation are in high demand where this system can help a lot. The system can be integrated into mobile apps to further assist the elderly and visually impaired. This is an inexpensive, time-saving system that is also prone to human error. This system serves as the base solution for many other activity detection applications. This system is therefore very beneficial for both individuals and organizations for general or special purposes.
+
+# Run Locally
+ ------------------------------------------------
+ 
+* Clone the project
+```bash
+  git clone https://github.com/Vikas2201/Human-Activity-Recognition-Pose-With-Motion-Detection-
+```
+* Go to the project directory
+```bash
+  cd Human-Activity-Recognition-Pose-With-Motion-Detection
+ ```
+* Install dependencies
+```bash
+  pip install -r requirements.txt
+```
+* Setting up the Controllers files
+```bash
+    Update the values inside the Controllers folder
+```
+* Run the app.py
+```bash
+  python app.py
+```
+
+# Teams Members Name
+--------------------------------------------------------------------
+
+ * [@Vikas](https://github.com/Vikas2201)
+ * [@Aakash Katyar](https://github.com/XDXD1100189XD)
+ * [@Aditya](https://github.com/Aditya-Gahlot)
+ * [@Abhijeet 
+
+# Help Me Improve
+--------------------------------------------------------------------
+
+Hello Reader if you find any bug please consider raising issue I will address them asap.
