@@ -97,6 +97,32 @@ A second approach for training datasets is the LRCN algorithm. We implement anot
 
 Computer vision is a trending topic these days, so systems like human activity recognition systems solve a wide range of applications, such as monitoring, monitoring, and assisting the elderly and the blind. very useful and effective for It can be used not only by end users, but also by various organizations to reduce the workload of their employees. This model gives good results for video streams and works well for image data. Activity recognition systems are very important today because of the convenience and problems they provide and solve. Surveillance and surveillance, the need for activity detection such as video segmentation are in high demand where this system can help a lot. The system can be integrated into mobile apps to further assist the elderly and visually impaired. This is an inexpensive, time-saving system that is also prone to human error. This system serves as the base solution for many other activity detection applications. This system is therefore very beneficial for both individuals and organizations for general or special purposes.
 
+# Reference 
+--------------------------------------------------------------------------------
+
+[Activity recognition-Wikipedia](https://en.wikipedia.org/wiki/Activity_recognition)
+
+[Human Activity Recognition](https://www.frontiersin.org/articles/10.3389/frobt.2015.00028/full)
+
+[Research-Wikipedia](https://en.wikipedia.org/wiki/Research)
+
+[Software Requirements](https://www.tutorialspoint.com/software_engineering/software_requirements.htm)
+
+[Residual Neural Network-Wikipedia](https://en.wikipedia.org/wiki/Residual_neural_network)
+
+[Overview of ResNets](https://towardsdatascience.com/understanding-resnet-and-itsvariants-719e5b8d2298)
+
+[CNN-Wikipedia]( [Online](https://en.wikipedia.org/wiki/Convolutional_neural_network)
+
+[Understanding LSTMs](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+
+[Keras-Wikipedia](https://en.wikipedia.org/wiki/Keras)
+
+[Understanding ConvLSTM](https://www.analyticsvidhya.com/blog/2021/08/beginners-guide-to-convolutional-neural-network-with-implementation-in-python/)
+
+[Understanding LRCN](https://towardsdatascience.com/long-term-recurrent-convolutional-network-for-video-regression-12138f8b4713)
+
+
 # Run Locally
  ------------------------------------------------
  
@@ -106,7 +132,7 @@ Computer vision is a trending topic these days, so systems like human activity r
 ```
 * Go to the project directory
 ```bash
-  cd Human-Activity-Recognition-Pose-With-Motion-Detection
+  cd Human-Activity-Recognition-Pose-With-Motion-Detection-
  ```
 * Install dependencies
 ```bash
@@ -127,7 +153,7 @@ Computer vision is a trending topic these days, so systems like human activity r
  * [@Vikas](https://github.com/Vikas2201)
  * [@Aakash Katyar](https://github.com/XDXD1100189XD)
  * [@Aditya](https://github.com/Aditya-Gahlot)
- * [@Abhijeet 
+ * [@Abhijeet Singh](https://github.com/abhijeetSingh131)
 
 # Help Me Improve
 --------------------------------------------------------------------
