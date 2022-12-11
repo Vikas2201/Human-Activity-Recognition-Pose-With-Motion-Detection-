@@ -112,7 +112,7 @@ Computer vision is a trending topic these days, so systems like human activity r
 
 [Overview of ResNets](https://towardsdatascience.com/understanding-resnet-and-itsvariants-719e5b8d2298)
 
-[CNN-Wikipedia]( [Online](https://en.wikipedia.org/wiki/Convolutional_neural_network)
+[CNN-Wikipedia](https://en.wikipedia.org/wiki/Convolutional_neural_network)
 
 [Understanding LSTMs](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
