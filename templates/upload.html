@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>W3.CSS Template</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/2.0.0/css/imagehover.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Raleway", sans-serif
+    }
+
+    body,
+    html {
+      height: 100%;
+      line-height: 1.8;
+    }
+
+    /* Full height image header */
+    .bgimg-1 {
+      background-position: center;
+      background-size: cover;
+      background-image: url("https://editor.analyticsvidhya.com/uploads/33408human-pose-estimation-cover.jpg");
+      min-height: 100%;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+    }
+
+    .w3-bar .w3-button {
+      padding: 16px;
+    }
+  </style>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-card" id="myNavbar">
+      <a href="#home" class="w3-bar-item w3-button w3-wide">LOGO</a>
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+        onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Sidebar on small screens when clicking the menu icon -->
+
+  <!-- Header with full-height image -->
+  <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+    <div class="w3-display-left w3-text-white" style="padding:38px" data-aos="fade-right">
+      <span class="w3-jumbo w3-hide-small">Start something that matters</span><br>
+      <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
+      <span class="w3-large">Stop wasting valuable time with projects that just isn't you.</span>
+    </div>
+
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-padding-64 w3-light-grey" style="padding-bottom: 0px!important;">
+    <div class="w3-row-padding">
+      <div class="w3-col l8 m6">
+        <h1 class="w3-jumbo"><b>The App</b></h1>
+        <h1 class="w3-xxxlarge w3-text-green" data-aos="fade-right"><b>What it does?</b></h1>
+        <p data-aos="fade-right"><span class="w3-xlarge">Modern human hobby detection structures </span> are typically skilled and used on video streams and photograph statistics. This task targets to broaden a low-cost, highspeed human hobby detection device which could method each movies and snap shots to hit upon sports carried out in them. In addition to being cost-effective, the device is a time-saving, user-primarily based totally device that may be incorporated with a mess of packages beneficial for a whole lot of sports that require a cognitive method, with awesome accuracy.</p>
+
+        <button
+          class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none border-2 border-slate-400 mt-2"
+          data-aos="fade-right">
+          <i class="fa fa-windows w3-xlarge w3-text-blue"></i>
+          <span class="ml-4 flex items-start flex-col leading-none">
+            <span class="text-xs text-gray-600 mb-1">GET IT ON</span>
+            <span class="title-font font-medium">Windows</span>
+          </span>
+        </button>
+      </div>
+      <div class="w3-col l4 m6" data-aos="fade-left">
+        <img src="https://3.bp.blogspot.com/-Vb4yc1YRRzc/ULOgeWT_K_I/AAAAAAAADBg/MNk2GsGuYU8/s1600/t2.png"
+          class="w3-image w3-right w3-hide-small" width="435" height="586">
+        <div class="w3-center w3-hide-large w3-hide-medium">
+          <button
+            class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 512 512">
+              <path
+                d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z">
+              </path>
+            </svg>
+            <span class="ml-4 flex items-start flex-col leading-none">
+              <span class="text-xs text-gray-600 mb-1">GET IT ON</span>
+              <span class="title-font font-medium">Google Play</span>
+            </span>
+          </button>
+          <img src="/w3images/img_app.jpg" class="w3-image w3-margin-top" width="335" height="471">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Promo Section - "We know design" -->
+ <div class="w3-padding-64 " >
+  <div class="w3-row-padding">
+    <div class="w3-col">
+      <h1 class="w3-jumbo" style="padding-bottom: 64px!important;"><b>What are its uses?</b></h1>
+        <figure class="imghvr-push-left" style="height:300px; width: 22vw; margin-right: 17px;margin-left:34px;" data-aos="fade-right" data-aos-duration="3000">
+    <img src="https://cdn-wordpress-info.futurelearn.com/wp-content/uploads/FL463_Explore_industries_-_Healthcare_blog_header-606x303.jpg" style="height:300px; width: 22vw;">
+      <figcaption style="padding-top:130px; padding-left:108px;">
+    <h3 class="ih-fade-down ih-delay-sm w3-xlarge">HealthCare</h3>
+
+     </figcaption>
+
+    <a href="http://www.imagehover.io"></a>
+  </figure>
+          <figure class="imghvr-push-right" style="height:300px; width: 22vw; margin-right: 17px;" data-aos="fade-right" data-aos-duration="2200">
+    <img src="https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg?w=2000" style="height:300px; width: 22vw;">
+      <figcaption style="padding-top:130px; padding-left:126px;">
+    <h3 class="ih-fade-down ih-delay-sm w3-xlarge">Sports</h3>
+
+     </figcaption>
+
+    <a href="http://www.imagehover.io"></a>
+  </figure>
+  <figure class="imghvr-push-left" style="height:300px; width: 22vw; margin-right: 17px;" data-aos="fade-right" data-aos-duration="1600">
+    <img src="https://i0.wp.com/cms.babbel.news/wp-content/uploads/2018/11/InternationalSignLanguage.png" style="height:300px; width: 22vw;">
+      <figcaption style="padding-top:130px; padding-left:98px;">
+    <h3 class="ih-fade-down ih-delay-sm w3-xlarge">SignLanguage</h3>
+
+     </figcaption>
+
+    <a href="http://www.imagehover.io"></a>
+  </figure>
+		<figure class="imghvr-push-right" style="height:300px; width: 22vw; margin-right: 17px;" data-aos="fade-right" data-aos-duration="800">
+    <img src="https://i.pinimg.com/564x/46/b1/d6/46b1d66430df728d931a986e9ef2062e--real-steel-lifeguard.jpg" style="height:300px; width: 22vw;">
+      <figcaption style="padding-top:130px; padding-left:112px;">
+    <h3 class="ih-push-up ih-delay-sm w3-xlarge">Robotics</h3>
+
+     </figcaption>
+
+    <a href="http://www.imagehover.io"></a>
+  </figure>
+
+      </div>
+
+  </div>
+</div>
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-6 md:flex-row flex-col items-center">
+
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">With technology we can achieve the unimaginable.
+        </h1>
+        <p class="mb-8 leading-relaxed">The vision-based mode detection system for human activity recognition provides activity prediction in videos with good accuracy.</p>
+        <form method="post" action="{{ url_for("upload_video")}}" enctype="multipart/form-data">
+          <dl>
+            <p>
+              <input type="file" name="file" class="form-control
+        block
+        w-full
+        px-3
+        py-1.5
+        text-base
+        font-normal
+        text-gray-700
+        bg-white bg-clip-padding
+        border border-solid border-gray-300
+        rounded
+        transition
+        ease-in-out
+        m-0
+        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none mb-2" id="exampleInputEmail2"
+                autocomplete="off" required>
+            </p>
+          </dl>
+          <select class="form-select appearance-none" name="options"
+      block
+      w-full
+      px-3
+      py-1.5
+      mt-2
+      text-base
+      font-normal
+      text-gray-700
+      bg-white bg-clip-padding bg-no-repeat
+      border border-solid border-gray-300
+      rounded
+      transition
+      ease-in-out
+      m-0
+      focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
+            <option value="none" selected disabled hidden>Select an Action</option>
+            <option selected value="Single Action">Single Action</option>
+            <option value="Multiple action">Multiple action</option>
+
+          </select>
+          <p>
+            <input type="submit"
+              class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 mt-2 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              value="Upload">
+          </p>
+        </form>
+
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        {% if filename %}
+        <video autoplay="autoplay" controls="controls" preload="preload" class="object-cover object-center rounded">
+          <source src="{{ url_for('display_video', filename=filename) }}" type="video/mp4">
+          </source>
+        </video>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+      <div class="flex flex-wrap w-full">
+        <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
+          <div class="flex relative pb-12">
+            <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+              <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+            </div>
+            <div
+              class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <div class="flex-grow pl-4" data-aos="fade-up">
+              <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Data Acquisition</h2>
+              <p class="leading-relaxed">We use different website to collect data.
+Ethical considerations such as privacy and
+consent issues should be considered when
+scraping and collecting data</p>
+            </div>
+          </div>
+          <div class="flex relative pb-12">
+            <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+              <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+            </div>
+            <div
+              class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+              </svg>
+            </div>
+            <div class="flex-grow pl-4" data-aos="fade-up">
+              <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Pre-processing</h2>
+              <p class="leading-relaxed">. First, we will read the video files from the dataset and
+resize the frames of the videos to a fixed width and height, to
+reduce the computations and normalized the data to range [0-1] </p>
+            </div>
+          </div>
+          <div class="flex relative pb-12">
+            <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+              <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+            </div>
+            <div
+              class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-5 h-5" viewBox="0 0 24 24">
+                <circle cx="12" cy="5" r="3"></circle>
+                <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+              </svg>
+            </div>
+            <div class="flex-grow pl-4" data-aos="fade-up">
+              <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Splitting the Dataset and Train Model</h2>
+              <p class="leading-relaxed">After processing the data, split the data set.
+In general, we split the data into two sets: training and validation and we use LRCN and ConvLSTM
+Approach for performing Human Action Recognition.</p>
+            </div>
+          </div>
+          <div class="flex relative pb-12">
+            <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+              <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+            </div>
+            <div
+              class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <div class="flex-grow pl-4" data-aos="fade-up">
+              <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Evaluation Measure</h2>
+              <p class="leading-relaxed">: Evaluation is measured in terms of Cross
+Validation and Evaluation Metrics such as Accuracy and Loss of
+model.
+</p>
+            </div>
+          </div>
+          <div class="flex relative">
+            <div
+              class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                <path d="M22 4L12 14.01l-3-3"></path>
+              </svg>
+            </div>
+            <div class="flex-grow pl-4" data-aos="fade-up">
+              <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">DEPLOYMENT</h2>
+              <p class="leading-relaxed">Once we have trained our model, we
+may want to use it in the real world.</p>
+            </div>
+          </div>
+        </div>
+        <img class="lg:w-3/5 md:w-1/2 object-center rounded-lg md:mt-0 mt-12 "
+          src="http://www.theobjects.com/dragonfly/dfhelp/2020-1/Content/Resources/Images/deep-learning/data-preparation-workflow.png" alt="step">
+      </div>
+    </div>
+  </section>
+  <!-- Team Section -->
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-20">
+        <h1 class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">OUR TEAM</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">I'm not the smartest fellow in the world but i sure can pick smart colleagues.</p>
+      </div>
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 lg:w-1/2" data-aos="fade-right">
+          <div
+            class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+              src="https://www.w3schools.com/howto/img_avatar.png">
+            <div class="flex-grow sm:pl-8">
+              <h2 class="title-font font-medium text-lg text-gray-900">Vikas</h2>
+              <h3 class="text-gray-500 mb-3">Machine Learning</h3>
+              <p class="mb-4">2019UMC4555</p>
+              <span class="inline-flex">
+                <a class="text-gray-500 fa-2x" href="https://github.com/Vikas2201">
+                 <i class="fa-brands fa-github"></i>
+                </a>
+                <a class="ml-2 text-gray-500 fa-2x" href="mailto: vikas2212000@gmail.com">
+                  <i class="fa-brands fa-google-plus "></i>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/2" data-aos="fade-right">
+          <div
+            class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+              src="https://www.w3schools.com/howto/img_avatar.png">
+            <div class="flex-grow sm:pl-8">
+              <h2 class="title-font font-medium text-lg text-gray-900">Aakash Katiyar</h2>
+              <h3 class="text-gray-500 mb-3">Front-end Developer</h3>
+              <p class="mb-4">2019UCO1556</p>
+              <span class="inline-flex">
+                <a class="text-gray-500 fa-2x" href="https://github.com/XDXD1100189XD">
+                 <i class="fa-brands fa-github"></i>
+                </a>
+                <a class="ml-2 text-gray-500 fa-2x" href="mailto: aakashkatiyar66@gmail.com">
+                  <i class="fa-brands fa-google-plus"></i>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/2 " data-aos="fade-right">
+          <div
+            class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+              src="https://www.w3schools.com/howto/img_avatar.png">
+            <div class="flex-grow sm:pl-8">
+              <h2 class="title-font font-medium text-lg text-gray-900">Abhijeet</h2>
+              <h3 class="text-gray-500 mb-3">Machine learning and Research</h3>
+              <p class="mb-4">2019UMC4559</p>
+              <span class="inline-flex">
+                <a class="text-gray-500 fa-2x" href="https://github.com/abhijeetSingh131">
+                 <i class="fa-brands fa-github"></i>
+                </a>
+                <a class="ml-2 text-gray-500 fa-2x" href="mailto: abhijeet01bhadauria@gmail.com">
+                  <i class="fa-brands fa-google-plus"></i>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/2" data-aos="fade-right">
+          <div
+            class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+              src="https://www.w3schools.com/howto/img_avatar.png">
+            <div class="flex-grow sm:pl-8">
+              <h2 class="title-font font-medium text-lg text-gray-900">Aditya Great</h2>
+              <h3 class="text-gray-500 mb-3">UI Designer</h3>
+              <p class="mb-4">2019UMC4556</p>
+              <span class="inline-flex">
+                <a class="text-gray-500 fa-2x" href="https://github.com/Aditya-Gahlot">
+                 <i class="fa-brands fa-github"></i>
+                </a>
+                <a class="ml-2 text-gray-500 fa-2x" href="mailto: Adityagahlot11@gmail.com">
+                  <i class="fa-brands fa-google-plus"></i>
+                </a>
+
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Promo Section "Statistics" -->
+  <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+    <div class="w3-quarter">
+      <span class="w3-xxlarge">4</span>
+      <br>Members
+    </div>
+    <div class="w3-quarter">
+      <span class="w3-xxlarge">3+</span>
+      <br>Models
+    </div>
+    <div class="w3-quarter">
+      <span class="w3-xxlarge">1000+</span>
+      <br>Data items
+    </div>
+    <div class="w3-quarter">
+      <span class="w3-xxlarge">100%</span>
+      <br>User Satisfaction
+    </div>
+  </div>
+
+  <!-- Work Section -->
+  <div class="w3-row w3-container" style="margin-bottom: 64px;">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">What We Offer</span>
+    </div>
+    <div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16" data-aos="fade-right" data-aos-duration="3000">
+      <h3>RealTime Analysis</h3>
+      <p>Provide real time activity recognition. Currently working on it.</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-grey w3-container w3-padding-16" data-aos="fade-right" data-aos-duration="2200">
+      <h3>LightWeight</h3>
+      <p>LightWeight and fast app that makes action prediction easier</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16" data-aos="fade-right" data-aos-duration="1600">
+      <h3>Cloud</h3>
+      <p>Easily integrable with cloud and provide scalablity to the user</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-black w3-container w3-padding-16" data-aos="fade-right" data-aos-duration="800">
+      <h3>UserFriendly</h3>
+      <p>Simple UI design for customes and easy to use. Highly user-friendly</p>
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption" class="w3-opacity w3-large"></p>
+    </div>
+  </div>
+
+  <!-- Skills Section -->
+  <div class="w3-container w3-light-grey w3-padding-64" data-aos="fade-up">
+    <div class="w3-row-padding">
+      <div class="w3-col m6">
+        <h3>Future Scope</h3>
+        <p>This project has a wide scope in the future. First, the video recognition code can be further improved by transfer learning and a larger data set can be used to further improve the accuracy of the model.</p>
+        <p>In addition, web and mobile applications can be built to invoke these Python scripts using API calls, provide activity recognition for mobile users, help elderly and blind people  understand and interact with their environment, and more. and many more real-time applications. activity recognition system.</p>
+      </div>
+      <div class="w3-col m6">
+        <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>Machine Learning</p>
+        <div class="w3-grey">
+          <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Web Development</p>
+        <div class="w3-grey">
+          <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Cloud Computing</p>
+        <div class="w3-grey">
+          <div class="w3-container w3-dark-grey w3-center" style="width:45%">45%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="w3-center w3-black w3-padding-64">
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+
+  </footer>
+
+  <script>
+    // Modal Image Gallery
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      captionText.innerHTML = element.alt;
+    }
+
+
+    // Toggle between showing and hiding the sidebar when clicking the menu icon
+    var mySidebar = document.getElementById("mySidebar");
+
+    function w3_open() {
+      if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+      } else {
+        mySidebar.style.display = 'block';
+      }
+    }
+
+    // Close the sidebar with the close button
+    function w3_close() {
+      mySidebar.style.display = "none";
+    }
+  </script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>
