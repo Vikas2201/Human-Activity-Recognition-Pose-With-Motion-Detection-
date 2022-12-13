@@ -92,6 +92,15 @@ A second approach for training datasets is the LRCN algorithm. We implement anot
   
 ![image](https://user-images.githubusercontent.com/76476273/206908037-0dbf8e82-b6a2-4c47-acf8-80d94da1f894.png)
 
+# User Interface (wensite application)
+------------------------------------------------------------------
+
+![Screenshot 2022-12-13 095901](https://user-images.githubusercontent.com/76476273/207227593-9690355b-0d72-4f61-b2bd-2a597d9cd615.png)
+![Screenshot 2022-12-13 100042](https://user-images.githubusercontent.com/76476273/207227610-b63daa72-1b83-409f-998f-db4e02dd4265.png)
+![Screenshot 2022-12-13 100209](https://user-images.githubusercontent.com/76476273/207227688-6484e355-a3ae-43cb-bdee-6d9687a816ae.png)
+![Screenshot 2022-12-13 100237](https://user-images.githubusercontent.com/76476273/207228127-30f3a948-7f71-490d-805a-b5418fe56425.png)
+![Screenshot 2022-12-13 100315](https://user-images.githubusercontent.com/76476273/207228133-d9762e8c-b10c-46c3-9a4b-3637fd702830.png)
+
 # Conclusion
 -----------------------------------------------------------------------------
 
