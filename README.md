@@ -168,3 +168,8 @@ Computer vision is a trending topic these days, so systems like human activity r
 --------------------------------------------------------------------
 
 Hello Reader if you find any bug please consider raising issue I will address them asap.
+
+# Documentation / Research Paper
+---------------------------------------------------------------------------------------------------------------
+
+[ICICC_Dr. Veenu_Vikas_Aakash.pdf](https://github.com/Vikas2201/Human-Activity-Recognition-Pose-With-Motion-Detection-/files/12129825/ICICC_Dr.Veenu_Vikas_Aakash.pdf)
